@@ -10,5 +10,6 @@ import { ConnexionComponent } from './connexion.component';
   imports: [
     CommonModule
   ],
+  exports: [ConnexionComponent]
 })
 export class ConnexionModule { }

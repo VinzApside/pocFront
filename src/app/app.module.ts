@@ -14,7 +14,7 @@ import { MenuModule } from './menu/menu.module';
     BrowserModule,
     AppRoutingModule,
     AuthenticationModule,
-    MenuModule
+    MenuModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
