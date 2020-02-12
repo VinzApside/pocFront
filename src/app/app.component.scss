@@ -1,0 +1,24 @@
+.content{
+        background-color: var(--color-app-light);
+}
+
+.header {
+    display: flex;
+    height: var(--header-height);
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container-general{
+    display: flex;
+    flex: row;
+}
+
+.menu {
+    flex : 1;
+}
+
+.content {
+    flex: 9;
+}
