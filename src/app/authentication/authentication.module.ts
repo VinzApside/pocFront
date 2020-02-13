@@ -8,8 +8,8 @@ import { ConnexionModule } from './connexion/connexion.module';
 @NgModule({
   declarations: [],
   imports: [
-    ConnexionModule,
-    CommonModule
+    CommonModule,
+    ConnexionModule
   ],
   exports: [
     ConnexionModule

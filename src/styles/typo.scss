@@ -1,0 +1,109 @@
+$font-family: 'Poppins';
+$extra-light: 100;
+$light: 200;
+$semibold: 500;
+$normal: 400;
+$bold: 600;
+
+:root {
+  --fs-8: 0.8rem;
+  --fs-9: 0.9rem;
+  --fs-10: 1rem;
+  --fs-12: 1.2rem;
+  --fs-11: 1.1rem;
+  --fs-14: 1.4rem;
+  --fs-16: 1.6rem;
+  --fs-18: 1.8rem;
+  --fs-20: 2rem;
+  --fs-24: 2.4rem;
+  --fs-32: 3.2rem;
+  --fs-48: 4.8rem;
+  --bold: 600;
+  --semibold: 500;
+  --normal: 400;
+  --light: 200;
+  --extra-light: 100;
+  --font-family: $font-family;
+}
+
+@mixin font() {
+  font-family: $font-family;
+}
+
+@mixin init-typo() {
+  // @font-face {
+  //   font-family: 'SourceSansPro';
+  //   font-weight: $normal;
+  //   font-display: auto;
+  //   src: url(/assets/fonts/source-sans-pro/SourceSansPro-Regular.otf);
+  // }
+
+  // @font-face {
+  //   font-family: 'SourceSansPro';
+  //   font-weight: $bold;
+  //   font-display: auto;
+  //   src: url(/assets/fonts/source-sans-pro/SourceSansPro-Bold.otf);
+  // }
+
+  // @font-face {
+  //   font-family: 'SourceSansPro';
+  //   font-weight: $semibold;
+  //   font-display: auto;
+  //   src: url(/assets/fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+  // }
+
+  // @font-face {
+  //   font-family: 'SourceSansPro';
+  //   font-weight: $light;
+  //   font-display: auto;
+  //   src: url(/assets/fonts/source-sans-pro/SourceSansPro-Light.otf);
+  // }
+
+  // @font-face {
+  //   font-family: 'SourceSansPro';
+  //   font-weight: $extra-light;
+  //   font-display: auto;
+  //   src: url(/assets/fonts/source-sans-pro/SourceSansPro-ExtraLight.otf);
+  // }
+
+  //
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: $normal;
+    font-display: auto;
+    src: url(/assets/fonts/poppins/Poppins-Regular.otf);
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: $bold;
+    font-display: auto;
+    src: url(/assets/fonts/poppins/Poppins-Bold.otf);
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: $semibold;
+    font-display: auto;
+    src: url(/assets/fonts/poppins/Poppins-SemiBold.otf);
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: $light;
+    font-display: auto;
+    src: url(/assets/fonts/poppins/Poppins-Light.otf);
+  }
+
+  @font-face {
+    font-family: 'Poppins';
+    font-weight: $extra-light;
+    font-display: auto;
+    src: url(/assets/fonts/poppins/Poppins-ExtraLight.otf);
+  }
+
+  b {
+    font-weight: var(--bold) !important;
+  }
+
+}
