@@ -22,7 +22,7 @@
     "@ngx-translate/http-loader": "4.0.0",
     "@ngxs/logger-plugin": "3.5.1",
     "@ngxs/store": "3.5.1",
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
